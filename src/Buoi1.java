@@ -1,0 +1,38 @@
+public class Buoi1 {
+    // function
+    public static void main(String[] args) {
+        /*
+         kieu dữ liệu
+         String : kiểu chuỗi => 2 ký tự trở lên => "xin chao"
+         int : kiểu số nguyên => đại diện cho số => 3
+         float : kiểu số thực (số có phần thập phần 1.5) => 1.5
+         boolean : kiểu lý luận (1 : true , 2 : false)
+
+         khai báo biến
+         type variable = value
+
+        String name = "Phạm Tấn Phát";
+         age = 28 (Number)
+         address = Quận 1 (String)
+         isMale (boolean)
+         height : 1.75f
+        int age = 28;
+        String address = "Quận 10";
+        boolean isMale = true;
+        float height = 1.75f;
+        String myFavorite = "Xem đá banh";
+
+
+        System.out.println("Tên : " + name);
+        System.out.println("Tuối : " + age);
+        System.out.println("Địa chỉ : " + address);
+        System.out.println("IsMale : " + isMale);
+        System.out.println("Chiều cao : " + height);
+        System.out.println("Sở thích " + myFavorite);
+
+        */
+
+    }
+}
+
+
