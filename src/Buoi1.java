@@ -43,9 +43,23 @@ public class Buoi1 {
 //        System.out.println("b " + b);
 
         int a = 5;
-        int b = 5;
+        int b = 6;
 
         int ketQua = a++ - --b + --b - a++ + b-- - a-- - b++ - --a;
+
+        // 5 - --b + --b - a++ + b-- - a-- - b++ - --a;  a = 6 , b = 6
+        // 5 - 5 + --b - a++ + b-- - a-- - b++ - --a;  a = 6 , b = 5
+        // 5 - 5 + 4 - a++ + b-- - a-- - b++ - --a;  a = 6 , b = 4
+        // 5 - 5 + 4 - 6 + b-- - a-- - b++ - --a;  a = 7 , b = 4
+        // 5 - 5 + 4 - 6 + 4 - a-- - b++ - --a;  a = 7 , b = 3
+        // 5 - 5 + 4 - 6 + 4 - 7 - b++ - --a;  a = 6 , b = 3
+        // 5 - 5 + 4 - 6 + 4 - 7 - 3 - --a;  a = 6 , b = 4
+        // 5 - 5 + 4 - 6 + 4 - 7 - 3 - 5;  a = 5 , b = 4
+        //  -13 ;  a = 5 , b = 4
+        System.out.println("a " + a);
+        System.out.println("b " + b);
+        System.out.println("ketqua " + ketQua);
+
     }
 }
 
