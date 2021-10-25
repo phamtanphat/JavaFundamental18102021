@@ -32,33 +32,34 @@ public class Buoi1 {
 
 
         Toán tử
-        */
 
-//        a += 1; // (a = a + 1)
-//         a++
-//         gán a trước
-//         sau đó a = a + 1
-//        int b = ++a;
-//        System.out.println("a " + a);
-//        System.out.println("b " + b);
+        a += 1; // (a = a + 1)
+         a++
+         gán a trước
+         sau đó a = a + 1
+        int b = ++a;
+        System.out.println("a " + a);
+        System.out.println("b " + b);
 
         int a = 5;
         int b = 6;
 
-        int ketQua = a++ - --b + --b - a++ + b-- - a-- - b++ - --a;
-
-        // 5 - --b + --b - a++ + b-- - a-- - b++ - --a;  a = 6 , b = 6
-        // 5 - 5 + --b - a++ + b-- - a-- - b++ - --a;  a = 6 , b = 5
-        // 5 - 5 + 4 - a++ + b-- - a-- - b++ - --a;  a = 6 , b = 4
-        // 5 - 5 + 4 - 6 + b-- - a-- - b++ - --a;  a = 7 , b = 4
-        // 5 - 5 + 4 - 6 + 4 - a-- - b++ - --a;  a = 7 , b = 3
-        // 5 - 5 + 4 - 6 + 4 - 7 - b++ - --a;  a = 6 , b = 3
-        // 5 - 5 + 4 - 6 + 4 - 7 - 3 - --a;  a = 6 , b = 4
-        // 5 - 5 + 4 - 6 + 4 - 7 - 3 - 5;  a = 5 , b = 4
-        //  -13 ;  a = 5 , b = 4
+        int ketQua = ++a - --b - --a - b-- + a-- + b-- - b++;
+         6 - --b - --a - b-- + a-- + b-- - b++; a = 6 , b = 6
+         6 - 5 - --a - b-- + a-- + b-- - b++; a = 6 , b = 5
+         6 - 5 - 5 - b-- + a-- + b-- - b++; a = 5 , b = 5
+         6 - 5 - 5 - 5 + a-- + b-- - b++; a = 5 , b = 4
+         6 - 5 - 5 - 5 + 5 + b-- - b++; a = 4 , b = 4
+         6 - 5 - 5 - 5 + 5 + 4 - 3; a = 4 , b = 4
+         6 - 5 - 5 - 5 + 5 + 4 - 3; a = 4 , b = 4
+         - 3 a = 4 , b = 4
         System.out.println("a " + a);
         System.out.println("b " + b);
-        System.out.println("ketqua " + ketQua);
+        System.out.println("ket qua " + ketQua);
+        */
+
+
+
 
     }
 }
