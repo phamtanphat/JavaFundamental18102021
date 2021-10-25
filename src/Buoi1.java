@@ -71,22 +71,28 @@ public class Buoi1 {
 //            System.out.println("Trên vị thành niên");
 //        }
 
-        int a = 7;
-        int b = 6;
+//        int a = 7;
+//        int b = 6;
+//
+//        // a - b > 0 => 1
+//        // a - b = 0 => 0
+//        // a - b < 0 => -1
+//
+//        int ketQua = a - b;
+//        if (ketQua < 0){
+//            System.out.println("-1");
+//        }else if(ketQua == 0){
+//            System.out.println("0");
+//        }else{
+//            System.out.println("1");
+//        }
 
-        // a - b > 0 => 1
-        // a - b = 0 => 0
-        // a - b < 0 => -1
+        int total = 100000;
+        // Nếu total lớn hơn 100k => Giảm 10%
+        // Nếu total bé hơn 500k và lớn hơn 200k => Giảm 15%
+        // Nếu total lớn hơn 500k => Giảm 20%
 
-        int ketQua = a - b;
-        if (ketQua < 0){
-            System.out.println("-1");
-        }else if(ketQua == 0){
-            System.out.println("0");
-        }else{
-            System.out.println("1");
-        }
-
+        // Total ?
     }
 }
 
