@@ -30,8 +30,22 @@ public class Buoi1 {
         System.out.println("Chiều cao : " + height);
         System.out.println("Sở thích " + myFavorite);
 
+
+        Toán tử
         */
 
+//        a += 1; // (a = a + 1)
+//         a++
+//         gán a trước
+//         sau đó a = a + 1
+//        int b = ++a;
+//        System.out.println("a " + a);
+//        System.out.println("b " + b);
+
+        int a = 5;
+        int b = 5;
+
+        int ketQua = a++ - --b + --b - a++ + b-- - a-- - b++ - --a;
     }
 }
 
