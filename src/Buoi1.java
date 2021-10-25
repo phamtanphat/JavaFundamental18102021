@@ -56,10 +56,36 @@ public class Buoi1 {
         System.out.println("a " + a);
         System.out.println("b " + b);
         System.out.println("ket qua " + ketQua);
+
+
+        Câu điều kiện if else
         */
+//        int age = 18;
 
+        // Nếu như tuổi bé hơn 18 : Dưới vị thành niên
+        // Nếu như tuổi 18 trở lên : Trên vị thành niên
 
+//        if (age < 18){
+//            System.out.println("Dưới vị thành niên");
+//        }else{
+//            System.out.println("Trên vị thành niên");
+//        }
 
+        int a = 7;
+        int b = 6;
+
+        // a - b > 0 => 1
+        // a - b = 0 => 0
+        // a - b < 0 => -1
+
+        int ketQua = a - b;
+        if (ketQua < 0){
+            System.out.println("-1");
+        }else if(ketQua == 0){
+            System.out.println("0");
+        }else{
+            System.out.println("1");
+        }
 
     }
 }
