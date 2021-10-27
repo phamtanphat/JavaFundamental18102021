@@ -142,12 +142,37 @@ public class Buoi1 {
 //                break;
 //        }
 
-        // mang : array
-        // Cach 1 : Khai bao mang nhung chi biet kich thuoc mang
-        int[] arrNumbers = new int[5]; // mang co 5 phan tu
+//         mang : array
+//         Cach 1 : Khai bao mang nhung chi biet kich thuoc mang
+//        int[] arrNumbers = new int[5]; // mang co 5 phan tu
+//
+//         Cach 2 : Biet gia tri cua phan tu
+//         index :              0   1    2
+//        String[] arrNames = {"Teo","Ti","Tun"};
+//
+//
+//         Truy cap vao phan tu
+//        System.out.println(arrNames[0]);
+//         Lay kich thuoc mang
+//        System.out.println(arrNames.length);
+//         Cap nhap du lieu cho phan tu
+//        arrNames[0] = "Tuan";
+//        System.out.println(arrNames[0]);
 
-        // Cach 2 : Biet gia tri cua phan tu
-        String[] arrNames = {"Teo","Ti","Tun"};
+        // vong lap : loop
+
+//        for (int i = 0 ; i < 10 ; i++){
+//            System.out.println("Vi tri : " + i);
+//        }
+
+        // Tao vong lap 1 -> 100
+//         Chi in ra so chan
+//        for (int i = 2 ; i<= 100 ; i+=2){ System.out.println(i);}
+//
+//         Chi in ra so le
+//        for (int i = 1 ; i<= 100 ; i+=2){ System.out.println(i);}
+//         chi in so chia 3 du 1
+//        for (int i = 1 ; i<= 100 ; i+=3){ System.out.println(i);}
 
     }
 }
