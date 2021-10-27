@@ -116,11 +116,31 @@ public class Buoi1 {
 //        System.out.println(message);
 //        System.out.println("Total : " + total);
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter username : ");
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Enter username : ");
+//
+//        String userName = scanner.nextLine();  // Read user input
+//        System.out.println("Username is: " + userName);
 
-        String userName = scanner.nextLine();  // Read user input
-        System.out.println("Username is: " + userName);
+        //switch case (Cau dieu kien)
+
+
+        int month = 5;
+
+        switch (month) {
+            case 1:
+                System.out.println("Quy 1");
+                break;
+            case 2:
+                System.out.println("Quy 1");
+                break;
+            case 3:
+                System.out.println("Quy 1");
+                break;
+            default:
+                System.out.println("Khong thuoc quy nao");
+                break;
+        }
     }
 }
 
