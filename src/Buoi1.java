@@ -125,22 +125,30 @@ public class Buoi1 {
         //switch case (Cau dieu kien)
 
 
-        int month = 5;
+//        int month = 5;
+//
+//        switch (month) {
+//            case 1:
+//                System.out.println("Quy 1");
+//                break;
+//            case 2:
+//                System.out.println("Quy 1");
+//                break;
+//            case 3:
+//                System.out.println("Quy 1");
+//                break;
+//            default:
+//                System.out.println("Khong thuoc quy nao");
+//                break;
+//        }
 
-        switch (month) {
-            case 1:
-                System.out.println("Quy 1");
-                break;
-            case 2:
-                System.out.println("Quy 1");
-                break;
-            case 3:
-                System.out.println("Quy 1");
-                break;
-            default:
-                System.out.println("Khong thuoc quy nao");
-                break;
-        }
+        // mang : array
+        // Cach 1 : Khai bao mang nhung chi biet kich thuoc mang
+        int[] arrNumbers = new int[5]; // mang co 5 phan tu
+
+        // Cach 2 : Biet gia tri cua phan tu
+        String[] arrNames = {"Teo","Ti","Tun"};
+
     }
 }
 
