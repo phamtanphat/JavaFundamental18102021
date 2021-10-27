@@ -87,12 +87,32 @@ public class Buoi1 {
 //            System.out.println("1");
 //        }
 
-        int total = 100000;
+        int total = -100;
         // Nếu total lớn hơn 100k => Giảm 10%
         // Nếu total bé hơn 500k và lớn hơn 200k => Giảm 15%
         // Nếu total lớn hơn 500k => Giảm 20%
 
         // Total ?
+        String message = "";
+        if (total > 0) {
+            if (total > 500000) {
+                total = (int) (total * 0.8);
+                message = "Giảm 20 %";
+            } else if (total > 200000) {
+                total = (int) (total * 0.85);
+                message = "Giảm 15 %";
+            } else if (total > 100000) {
+                total = (int) (total * 0.9);
+                message = "Giảm 10 %";
+            } else {
+                message = "Không được giảm";
+            }
+        } else {
+            message = "Dữ liệu nhập sai";
+        }
+
+        System.out.println(message);
+        System.out.println("Total : " + total);
     }
 }
 
