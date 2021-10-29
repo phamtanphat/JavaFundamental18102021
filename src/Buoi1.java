@@ -174,33 +174,43 @@ public class Buoi1 {
 //         chi in so chia 3 du 1
 //        for (int i = 1 ; i<= 100 ; i+=3){ System.out.println(i);}
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Nhập số bất kỳ : ");
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Nhập số bất kỳ : ");
+//
+//        int value = scanner.nextInt();
+//
+//        if (value < 2) {
+//            System.out.println("Số " + value + " không phải là số nguyên tố");
+//        } else {
+//            int count = 0;
+//            long startTime = System.currentTimeMillis();
+//            for (int i = 2; i < value; i++) {
+//                if (value % i == 0) {
+//                    count += 1;
+//                    break;
+//                }
+//            }
+//            long endTime = System.currentTimeMillis();
+//            System.out.println(endTime - startTime);
+//
+//            if (count == 0) {
+//                System.out.println("Số " + value + " là số nguyên tố");
+//            } else {
+//                System.out.println("Số " + value + " không phải là số nguyên tố");
+//            }
+//
+//        }
 
-        int value = scanner.nextInt();
+        // function , method : phương thức
 
-        if (value < 2) {
-            System.out.println("Số " + value + " không phải là số nguyên tố");
-        } else {
-            int count = 0;
-            long startTime = System.currentTimeMillis();
-            for (int i = 2; i < value; i++) {
-                if (value % i == 0) {
-                    count += 1;
-                    break;
-                }
-            }
-            long endTime = System.currentTimeMillis();
-            System.out.println(endTime - startTime);
-
-            if (count == 0) {
-                System.out.println("Số " + value + " là số nguyên tố");
-            } else {
-                System.out.println("Số " + value + " không phải là số nguyên tố");
-            }
-
-        }
+//        int total = sum(5,10);
+//        System.out.println(total);
     }
+    // 1 : Phạm vi truy cập
+    // 2 : Kiểu dữ liệu của giá trị trả về
+//    public static int sum(int a , int b){
+//        return a + b;
+//    }
 }
 
 
