@@ -15,8 +15,6 @@ public class OOP {
         teo.age = 10;
         teo.address = "Long An";
 
-        System.out.println("Tên " + teo.name);
-        System.out.println("Tuổi " + teo.age);
-        System.out.println("Địa chỉ " + teo.address);
+        teo.showInfo();
     }
 }
