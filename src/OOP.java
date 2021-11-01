@@ -19,5 +19,8 @@ public class OOP {
 
         teo.showInfo();
 //        System.out.println(teo.name);
+        System.out.println(teo);
+        teo = null;
+        System.out.println(teo);
     }
 }
