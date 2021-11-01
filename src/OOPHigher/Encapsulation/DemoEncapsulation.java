@@ -24,7 +24,5 @@ public class DemoEncapsulation {
 //            System.out.println(e.getMessage());
 //        }
 //        System.out.println("Tiếp tục");
-
-
     }
 }
