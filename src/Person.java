@@ -10,4 +10,12 @@ public class Person {
         System.out.println("Age " + age);
         System.out.println("Address " + address);
     }
+
+    // 3 : Phương thức khởi tạo (constructor)
+    public Person(String name , int age , String address){
+        this.name = name;
+        this.age = age;
+        this.address = address;
+    }
+
 }
