@@ -1,3 +1,5 @@
+import OOPHigher.Inheritance.Animal;
+
 public class OOP {
     public static void main(String[] args) {
 
@@ -22,5 +24,6 @@ public class OOP {
         System.out.println(teo);
         teo = null;
         System.out.println(teo);
+
     }
 }
