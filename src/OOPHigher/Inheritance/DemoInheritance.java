@@ -22,5 +22,17 @@ public class DemoInheritance {
         Cat cat = new Cat("Cat 1 ", 1 ,"Grey");
         cat.eat();
         System.out.println(cat);
+        // over load : phương thức  nạp chồng
+
+        showMessage("Error",new Throwable("Lỗi 404"));
+    }
+
+    public static void showMessage(String message){
+        System.out.println(message);
+    }
+
+    public static void showMessage(String message , Throwable t){
+        System.out.println(message);
+        System.out.println(t.getMessage());
     }
 }
