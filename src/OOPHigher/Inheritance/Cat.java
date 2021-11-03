@@ -15,4 +15,11 @@ public class Cat extends Animal {
     public void setColor(String color) {
         this.color = color;
     }
+
+    // override
+
+    @Override
+    public void eat() {
+        System.out.println("cat eat fish");
+    }
 }

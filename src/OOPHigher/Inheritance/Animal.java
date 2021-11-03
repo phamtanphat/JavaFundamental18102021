@@ -10,7 +10,7 @@ public class Animal {
     }
 
     public void eat(){
-
+        System.out.println("Animal eating something");
     }
 
     public String getName() {
@@ -28,4 +28,5 @@ public class Animal {
     public void setWeight(int weight) {
         this.weight = weight;
     }
+
 }

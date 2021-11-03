@@ -18,9 +18,9 @@ public class DemoInheritance {
 //
 //        animal.name = "Cat";
 
+        // runtime
         Cat cat = new Cat("Cat 1 ", 1 ,"Grey");
-        System.out.println(cat.getColor());
-        System.out.println(cat.getName());
-        System.out.println(cat.getWeight());
+        cat.eat();
+        System.out.println(cat);
     }
 }
